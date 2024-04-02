@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Water</title>
+
+		<link
+			href="https://fonts.cdnfonts.com/css/proxima-nova-condensed?styles=53278,53276,53280,53272"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="media.css" />
+	</head>
+	<body>
+		<header class="header-wrap">
+			<div class="container">
+				<div class="header">
+					<div class="header__logo">
+						<a href="#">
+							<img class="header__logo-img" src="img/logo.svg" alt="logo" />
+						</a>
+					</div>
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a class="nav__link" href="index.html">Главная</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="session.html">Сеансы</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#">Отзывы</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#">Контакты</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="news.html">Новости</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#">Обо мне</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="blog.html">Блог</a>
+							</li>
+						</ul>
+						<button class="nav__btn">Записаться на сеанс</button>
+					</nav>
+				</div>
+				<div class="header__burger" id="burger">
+					<span></span>
+				</div>
+			</div>
+		</header>
+		<button class="up-btn">
+			<ion-icon class="up" name="arrow-up-circle-outline"></ion-icon>
+		</button>
+		<main class="main">
+			<div class="container">
+				<div class="hero">
+					<div class="main-title hero__title scroll-item">
+						<img src="img/left.svg" alt="arrow-left" />
+						<h2 class="hero__suptitle title-section">Укрепление здоровья</h2>
+						<img src="img/right.svg" alt="arrow-right" />
+					</div>
+					<p class="hero__title">Акватерапия <br />RitmStyle</p>
+				</div>
+			</div>
+			<div class="sessions">
+				<div class="container">
+					<div class="main-title scroll-item">
+						<img src="img/left-blue.svg" alt="arrow-left" />
+						<h2 class="title-section">Сеансы RitmStyle</h2>
+						<img src="img/right-blue.svg" alt="arrow-right" />
+					</div>
+					<div class="sessions__cards">
+						<div class="sessions__card-left scroll-item">
+							<img
+								class="sessions__big-img"
+								src="img/bg-img.jpg"
+								alt="woman in water"
+							/>
+							<p class="card-left__text">Стандартный RitmStyle</p>
+						</div>
+						<div class="sessions__card-right">
+							<div class="session__card scroll-item">
+								<img
+									class="sessions__small-img"
+									src="img/unsplash_TnOyyEtrKd0.png"
+									alt="woman in water"
+								/>
+								<p class="card-right__text">RitmStyle для пар</p>
+							</div>
+							<div class="session__card scroll-item">
+								<img
+									class="sessions__small-img"
+									src="img/unsplash_TnOyyEtrKd0.png"
+									alt="woman in water"
+								/>
+								<p class="card-right__text">
+									RitmStyle с полным <br />
+									погружением под воду
+								</p>
+							</div>
+							<div class="session__card scroll-item">
+								<img
+									class="sessions__small-img"
+									src="img/unsplash_TnOyyEtrKd0.png"
+									alt="woman in water"
+								/>
+								<p class="card-right__text">RitmStyle для беременных</p>
+							</div>
+							<div class="session__card scroll-item">
+								<img
+									class="sessions__small-img"
+									src="img/unsplash_TnOyyEtrKd0.png"
+									alt="woman in water"
+								/>
+								<p class="card-right__text">
+									RitmStyle + красочная <br />
+									подводная фотосессия
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews">
+				<div class="contaner">
+					<div class="main-title scroll-item">
+						<img src="img/left-blue.svg" alt="arrow-left" />
+						<h2 class="title-section">Отзывы</h2>
+						<img src="img/right-blue.svg" alt="arrow-right" />
+					</div>
+				</div>
+				<div class="reviews__cards-btn">
+					<button id="left" class="material-symbols-outlined prev">
+						keyboard_arrow_left
+					</button>
+					<button id="right" class="material-symbols-outlined next">
+						keyboard_arrow_right
+					</button>
+					<div class="reviews__cards-wrap">
+						<div class="reviews__cards">
+							<div class="reviews__card">
+								<h3 class="reviews__card-name">Александра Дмитриева</h3>
+								<p class="reviews__card-about">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Consectetur nulla viverra egestas tellus. Cursus scelerisque
+									phasellus netus proin. Etiam mauris maecenas facilisis
+									faucibus mauris eleifend purus. Purus dictum vulputate
+									elementum mauris amet. <br /><br />
+									Hendrerit sit cras ullamcorper morbi quam vitae ante nibh.
+									Ornare ipsum mi nisl augue placerat lacus. Doloripsum
+									fermentum viverra bibendum faucibus urna. Arcu, ut sed tellus
+									lacus quisque diam. Semper sed aenean inetiam mus praesent
+									diam semper in. Pretium id a amet, massa ligula nibh faucibus
+									ornare. Ut aenean rhoncussed nam ut diam dapibus. Risus nibh
+									faucibus eu vestibulum tempor, quis ultrices mauris. Porta
+									enim, donecodio sagittis, eget velit at.
+								</p>
+							</div>
+							<div class="reviews__card reviews__card-active">
+								<h3 class="reviews__card-name">Кира Иванова</h3>
+								<p class="reviews__card-about">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
+									diam risus morbi nulla dictum. Urna mi orci gravida placerat
+									amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare
+									fringilla enim nibh donec sit imperdiet. Amet, diam duis eu
+									sit et. Volutpat vestibulum a lectus sed blandit. <br /><br />
+									Venenatis urna mattis eu enim molestie iaculis et aliquet.
+									Velit in pellentesque vestibulum phasellus orci. Fermentum sed
+									phasellus aliquam nulla non aenean. Quisque id nunc, mauris
+									potenti a massa. Fermentum at elit, convallis leo dolor
+									aliquet id elementum. Ullamcorper sociis et cum bibendum in
+									egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi
+									nam nulla pulvinar mauris vel lacinia venenatis.
+								</p>
+							</div>
+							<div class="reviews__card">
+								<h3 class="reviews__card-name">Яна Жернова</h3>
+								<p class="reviews__card-about">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Lacinia eget mattis orci aliquam enim tincidunt gravida
+									aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt.
+									Pretium dictum odio feugiat auctor diam sit viverra gravida.
+									Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac.
+									Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit
+									vestibulum feugiat proin tempor, justo. Diam commodo,
+									pellentesque at porttitor tristique faucibus faucibus morbi.
+									Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
+									<br /><br />
+									Tortor fermentum orci neque sed. Mauris faucibus diam lorem
+									erat ullamcorper donec egestas neque. Maecenas malesuada
+									mauris magnis sed id. Luctus vitae justo, in consectetur arcu.
+									Nulla feugiat at eu in aliquet. Diam nunc, libero mauris
+									tellus suspendisse morbi sagittis semper.
+								</p>
+							</div>
+							<div class="reviews__card">
+								<h3 class="reviews__card-name">Иван Иванов</h3>
+								<p class="reviews__card-about">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Lacinia eget mattis orci aliquam enim tincidunt gravida
+									aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt.
+									Pretium dictum odio feugiat auctor diam sit viverra gravida.
+									Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac.
+									Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit
+									vestibulum feugiat proin tempor, justo. Diam commodo,
+									pellentesque at porttitor tristique faucibus faucibus morbi.
+									Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
+									<br /><br />
+									Tortor fermentum orci neque sed. Mauris faucibus diam lorem
+									erat ullamcorper donec egestas neque. Maecenas malesuada
+									mauris magnis sed id. Luctus vitae justo, in consectetur arcu.
+									Nulla feugiat at eu in aliquet. Diam nunc, libero mauris
+									tellus suspendisse morbi sagittis semper.
+								</p>
+							</div>
+							<div class="reviews__card">
+								<h3 class="reviews__card-name">Михаил Петров</h3>
+								<p class="reviews__card-about">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Lacinia eget mattis orci aliquam enim tincidunt gravida
+									aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt.
+									Pretium dictum odio feugiat auctor diam sit viverra gravida.
+									Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac.
+									Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit
+									vestibulum feugiat proin tempor, justo. Diam commodo,
+									pellentesque at porttitor tristique faucibus faucibus morbi.
+									Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
+									<br /><br />
+									Tortor fermentum orci neque sed. Mauris faucibus diam lorem
+									erat ullamcorper donec egestas neque. Maecenas malesuada
+									mauris magnis sed id. Luctus vitae justo, in consectetur arcu.
+									Nulla feugiat at eu in aliquet. Diam nunc, libero mauris
+									tellus suspendisse morbi sagittis semper.
+								</p>
+							</div>
+							<div class="reviews__card">
+								<h3 class="reviews__card-name">Яна Кириловна</h3>
+								<p class="reviews__card-about">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Lacinia eget mattis orci aliquam enim tincidunt gravida
+									aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt.
+									Pretium dictum odio feugiat auctor diam sit viverra gravida.
+									Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac.
+									Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit
+									vestibulum feugiat proin tempor, justo. Diam commodo,
+									pellentesque at porttitor tristique faucibus faucibus morbi.
+									Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
+									<br /><br />
+									Tortor fermentum orci neque sed. Mauris faucibus diam lorem
+									erat ullamcorper donec egestas neque. Maecenas malesuada
+									mauris magnis sed id. Luctus vitae justo, in consectetur arcu.
+									Nulla feugiat at eu in aliquet. Diam nunc, libero mauris
+									tellus suspendisse morbi sagittis semper.
+								</p>
+							</div>
+							<div class="reviews__card">
+								<h3 class="reviews__card-name">Женя Михайлов</h3>
+								<p class="reviews__card-about">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Lacinia eget mattis orci aliquam enim tincidunt gravida
+									aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt.
+									Pretium dictum odio feugiat auctor diam sit viverra gravida.
+									Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac.
+									Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit
+									vestibulum feugiat proin tempor, justo. Diam commodo,
+									pellentesque at porttitor tristique faucibus faucibus morbi.
+									Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
+									<br /><br />
+									Tortor fermentum orci neque sed. Mauris faucibus diam lorem
+									erat ullamcorper donec egestas neque. Maecenas malesuada
+									mauris magnis sed id. Luctus vitae justo, in consectetur arcu.
+									Nulla feugiat at eu in aliquet. Diam nunc, libero mauris
+									tellus suspendisse morbi sagittis semper.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="dots">
+					<span class="dot"></span>
+					<span class="dot dot-active"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</div>
+			<div class="about-wrap">
+				<div class="container">
+					<div class="main-title scroll-item">
+						<img src="img/left-blue.svg" alt="arrow-left" />
+						<h2 class="title-section">Об RitmStyle</h2>
+						<img src="img/right-blue.svg" alt="arrow-right" />
+					</div>
+					<div class="about">
+						<div class="about__info-left scroll-item">
+							<div class="about__content">
+								<p class="left__title">RitmStyle массаж</p>
+								<p class="left__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+									in purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id
+									est. Erat consectetur etiam a sit diam in imperdiet amet. Diam
+									nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis
+									adipiscing. <br /><br />
+									Nisl convallis mauris in consequat. Sit ac vitae posuere
+									maecenas dictumst quam. Felis amet diam, non augue massa.
+									Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant
+									tortor at tempor.
+								</p>
+							</div>
+							<div class="left__img">
+								<img src="img/Rectangle 23.jpg" alt="woman-water" />
+							</div>
+						</div>
+
+						<div class="about__info-right scroll-item">
+							<div class="right__img">
+								<img src="img/Rectangle 23.jpg" alt="woman-water" />
+							</div>
+							<div class="about__content">
+								<p class="right__title">RitmStyle гидротерапия</p>
+								<p class="right__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu
+									cras quis ac a non ut viverra turpis eget. Hendrerit quis
+									pulvinar massa ipsum sem. Donec posuere nulla enim non neque
+									etiam. Eros arcu, pulvinar penatibus luctus ridiculus sagittis
+									vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis
+									ultricies sem nunc risus senectus luctus ultricies. Enim
+									feugiat pharetra pharetra et. <br />
+									<br />Pulvinar arcu at morbi posuere cursus. Fermentum est sit
+									enim velit ornare molestie. Ipsum nisi id sed tempor
+									elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus
+									a id vel massa tincidunt. Hendrerit blandit in augue vel mi
+									quam magna egestas. Fringilla ac lacus viverra ullamcorper
+									leo, enim vitae id aliquam. Magna sed tristique tellus enim,
+									netus tempor at elit dui. Ullamcorper hendrerit feugiat libero
+									tellus diam egestas dui tellus odio.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="prise-wrap">
+				<div class="container">
+					<div class="main-title scroll-item">
+						<img src="img/left-blue.svg" alt="arrow-left" />
+						<h2 class="title-section">Стоимость сеансов</h2>
+						<img src="img/right-blue.svg" alt="arrow-right" />
+					</div>
+					<div class="prise">
+						<ul class="prise__list scroll-item">
+							<li class="prise__item">
+								<img
+									src="img/left-blue.svg"
+									alt="lette"
+									width="19px"
+									height="9px"
+								/>
+								<p>RitmStyle с погружением</p>
+								<span>1000грн</span>
+							</li>
+							<li class="prise__item">
+								<img
+									src="img/left-blue.svg"
+									alt="lette"
+									width="19px"
+									height="9px"
+								/>
+								<p>Абонемент на RitmStyle</p>
+								<span>1500грн</span>
+							</li>
+							<li class="prise__item">
+								<img
+									src="img/left-blue.svg"
+									alt="lette"
+									width="19px"
+									height="9px"
+								/>
+								<p>RitmStyle для пар</p>
+								<span>2000грн</span>
+							</li>
+							<li class="prise__item">
+								<img
+									src="img/left-blue.svg"
+									alt="lette"
+									width="19px"
+									height="9px"
+								/>
+								<p>RitmStyle для беременных</p>
+								<span>3000грн</span>
+							</li>
+							<li class="prise__item">
+								<img
+									src="img/left-blue.svg"
+									alt="lette"
+									width="19px"
+									height="9px"
+								/>
+								<p>RitmStyle + фотосессия</p>
+								<span>3500грн</span>
+							</li>
+						</ul>
+						<div class="thanks scroll-item">
+							<img
+								class="thaks__img"
+								src="img/unsplash_M3fhZSBFoFQ.jpg"
+								alt="thaks"
+							/>
+							<p class="thaks__text">Подарочный сертификат</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="location-wrap">
+				<div class="container">
+					<div class="location">
+						<div class="location__map scroll-item">
+							<img src="img/map.jpg" alt="map" width="856px" height="605px" />
+						</div>
+
+						<div class="location__adress scroll-item">
+							<div class="location__adress-card">
+								<p class="card-title">Бассейн WorkClass</p>
+								<div class="adress">
+									<img src="img/location1.svg" alt="location" />
+									<p class="location__adress-info">Независимости 140</p>
+								</div>
+								<div class="adress">
+									<img src="img/location2.svg" alt="location" />
+									<p class="location__adress-info">м. Спасская</p>
+								</div>
+								<div class="adress">
+									<img src="img/location3.svg" alt="location" />
+									<p class="location__adress-info">Запись по договоренности</p>
+								</div>
+								<button class="location__btn">Записаться на сеанс</button>
+							</div>
+							<div class="location__adress-card scroll-item">
+								<p class="card-title">Бассейн WorkClass</p>
+								<div class="adress">
+									<img src="img/location1.svg" alt="location" />
+									<p class="location__adress-info">3-й проезд Иванова</p>
+								</div>
+								<div class="adress">
+									<img src="img/location2.svg" alt="location" />
+									<p class="location__adress-info">м. Крестовский остров</p>
+								</div>
+								<div class="adress">
+									<img src="img/location3.svg" alt="location" />
+									<p class="location__adress-info">Запись по договоренности</p>
+								</div>
+								<button class="location__btn">Записаться на сеанс</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer-wrap">
+			<div class="container">
+				<div class="footer">
+					<p class="left-text">© 2018-2022 RitmStyle</p>
+					<p class="right-text">Сделано d-e-n.info</p>
+				</div>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>
